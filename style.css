@@ -1,0 +1,59 @@
+#background_overlay {
+    background: url(/images/bg-banner.jpg) center center no-repeat scroll rgba(0, 0, 0, 0);
+    background-image: url(/images/bg-banner.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 375px;
+    left: 0px;
+    position: absolute;
+    top: 186px;
+    width: 100%;
+    z-index: -2;
+}
+
+
+body {
+    background: url("background.jpg") repeat-x scroll 0 0 #fff;
+    color: #555;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+img {
+    width:100%;
+}
+
+.pad{ padding-bottom:10px;}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
