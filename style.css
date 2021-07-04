@@ -113,6 +113,8 @@ html {
  #down {
   margin-top: 100%;
   padding-bottom: 25%;
+  margin-left: auto;
+  margin-right: auto
  } 
 
  /*Floating Back-To-Top Button*/
@@ -140,6 +142,7 @@ html {
 .footer {
   padding: 2em 0em;
   background:#F7F7F7;
+  
 }
 .ftr-grid h3 {
   font-size: 2em;
